@@ -9,6 +9,8 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 - ✅ **Formik + Yup** – Scalable forms & validation
 - ✅ **TanStack Query (React Query)** – Data fetching, caching & syncing
 - ✅ **React Router** – Powerful routing solution
+- ✅ **Axios** – API consumption with global config
+  ✅ **Environment** – Variables via .env
 - ✅ Well-organized folder structure
 - ✅ ESM, HMR, PostCSS, and Vite-ready
 
@@ -27,6 +29,8 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 | Yup            | Schema validation                |
 | TanStack Query | Data fetching, caching, and sync |
 | React Router   | Routing and navigation           |
+| Axios          | HTTP client for APIs             |
+| dotenv         | Manage environment variables     |
 
 ---
 
@@ -34,10 +38,10 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 
 ### 1. Clone the Template
 
-````bash
+```bash
 git clone https://github.com/RidwanAdebosin/react-starter-template.git
 cd react-starter-template
-````
+```
 
 ### 2. Install Dependencies
 
@@ -47,9 +51,16 @@ npm install
 
 # Or using yarn
 yarn install
-````
+```
 
-### 3. Start the Development Server
+### 3. Add Environment Variables
+
+```bash
+# Create a .env file in the root of the project:
+VITE_API_BASE_URL=https://your-api.com
+```
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
