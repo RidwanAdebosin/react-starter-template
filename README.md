@@ -10,7 +10,9 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 - ✅ **TanStack Query (React Query)** – Data fetching, caching & syncing
 - ✅ **React Router** – Powerful routing solution
 - ✅ **Axios** – API consumption with global config
-  ✅ **Environment** – Variables via .env
+- ✅ **Environment** – Variables via .env
+- ✅ **Prettier** - Maintain a clean codebase
+- ✅
 - ✅ Well-organized folder structure
 - ✅ ESM, HMR, PostCSS, and Vite-ready
 
@@ -31,6 +33,7 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 | React Router   | Routing and navigation           |
 | Axios          | HTTP client for APIs             |
 | dotenv         | Manage environment variables     |
+| Prettier       | Maintain a clean codebase        |
 
 ---
 
@@ -49,7 +52,10 @@ cd react-starter-template
 # Using npm
 npm install
 
-# Or using yarn
+# Using pnpm
+pnpm install
+
+# Using yarn
 yarn install
 ```
 
@@ -64,6 +70,12 @@ VITE_API_BASE_URL=https://your-api.com
 
 ```bash
 npm run dev
+
 # or
+
+pnpm run dev
+
+# or
+
 yarn dev
 ```
