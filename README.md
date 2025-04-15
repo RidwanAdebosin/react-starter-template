@@ -1,4 +1,4 @@
-# ⚡ React TypeScript Tailwind Starter CLI
+# ⚡ React Starter Template
 
 A powerful, minimal, and production-ready React + Vite starter template with built-in support for:
 
