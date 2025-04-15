@@ -35,20 +35,24 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 ### 1. Clone the Template
 
 ````bash
-git clone https://github.com/your-username/react-vite-cli-starter.git
-cd react-vite-cli-starter
-
+git clone https://github.com/RidwanAdebosin/react-starter-template.git
+cd react-starter-template
+````
 
 ### 2. Install Dependencies
 
 ```bash
+# Using npm
 npm install
-# or
-yarn
+
+# Or using yarn
+yarn install
 ````
 
 ### 3. Start the Development Server
 
 ```bash
 npm run dev
+# or
+yarn dev
 ```
