@@ -7,13 +7,15 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@tanstack/react-query": "^5.74.3",
     "axios": "^1.8.4",
     "formik": "^2.4.6",
     "gsap": "^3.12.7",
+    "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.30.0",
@@ -29,9 +31,19 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "nano-staged": "^0.8.0",
     "postcss": "^8.5.3",
+    "simple-git-hooks": "^2.12.1",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx nano-staged",
+    "pre-push": "npm run lint",
+    "preserveUnused": true
+  },
+  "nano-staged": {
+    "*.{js,ts,md,jsx,tsx,json}": "prettier --write"
   }
 }
