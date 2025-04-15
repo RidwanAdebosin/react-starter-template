@@ -12,9 +12,7 @@ const Products = () => {
 
   return (
     <ul>
-      {data?.map((product: any) => (
-        <li key={product.id}>{product.name}</li>
-      ))}
+      {data?.map((product: any) => <li key={product.id}>{product.name}</li>)}
     </ul>
   );
 };
