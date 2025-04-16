@@ -14,6 +14,8 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 - ✅ **Prettier** - Maintain a clean codebase
 - ✅ **Simple-git-hooks** - set up git hooks
 - ✅ **Nano-staged** - run commands for git files
+- ✅ **CLSX** - Join classes together into a single string
+- ✅ **Tailwind-Merge** - Merges TailwindCSS classes and resolve conflicts
 - ✅ Well-organized folder structure
 - ✅ ESM, HMR, PostCSS, and Vite-ready
 
@@ -37,6 +39,8 @@ A powerful, minimal, and production-ready React + Vite starter template with bui
 | Prettier         | Maintain a clean codebase                                                               |
 | Simple-git-hooks | For setting up git hooks                                                                |
 | Nano-staged      | Tiny tool to run commands for modified, staged, and committed files in a GIT repository |
+| `clsx`           | Conditionally joins class names together into a single string.                          |
+| `tailwind-merge` | Merges Tailwind CSS classes and resolves conflicts (e.g., `px-2` vs `px-4`).            |
 
 ## 🚀 Getting Started
 
@@ -120,3 +124,7 @@ yarn install
 ```
 
 ---
+
+## cn() - A utility function
+
+The `cn` utility function in the `lib/utils` folder combines class names using `clsx` and intelligently merges Tailwind CSS classes using `tailwind-merge`.
