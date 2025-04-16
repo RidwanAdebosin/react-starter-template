@@ -13,12 +13,14 @@
   "dependencies": {
     "@tanstack/react-query": "^5.74.3",
     "axios": "^1.8.4",
+    "clsx": "^2.1.1",
     "formik": "^2.4.6",
     "gsap": "^3.12.7",
     "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.30.0",
+    "tailwind-merge": "^3.2.0",
     "yup": "^1.6.1"
   },
   "devDependencies": {
